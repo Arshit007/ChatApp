@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F2F1">
+
+    <include layout="@layout/toolbar"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/profile_avatar"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:id="@+id/profileimage"
+            android:padding="10dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/displayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileimage"
+            android:text="Display Name"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            />
+
+        <TextView
+
+            android:padding="10dp"
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/displayname"
+            android:text="Hello this is my status"
+            android:textAlignment="center"
+
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Status"
+        android:layout_gravity="center"
+        android:id="@+id/btn_staus"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#EF5350"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Image"
+        android:layout_gravity="center"
+        android:id="@+id/btn_image"
+        android:padding="10dp"
+        android:textColor="#EF5350"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_Users"
+        android:title="All Users"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/accc_setting"
+        android:title="Account Settings"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/create_group"
+        android:title="Create Group"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+</menu>
